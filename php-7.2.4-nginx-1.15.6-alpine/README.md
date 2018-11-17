@@ -161,7 +161,7 @@ docker ps
 显示如下信息
 ```shell
 CONTAINER ID        IMAGE                  COMMAND                  CREATED             STATUS              PORTS                NAMES
-b86f9e785b61        nginx:1.15.6-alpine    "nginx -g 'daemon of…"   5 seconds ago       Up 2 hours          0.0.0.0:80->80/tcp   nginx
+b4961df0f0c8        nginx:1.15.6-alpine    "nginx -g 'daemon of…"   5 seconds ago       Up 2 hours          0.0.0.0:80->80/tcp   nginx
 ```
 表示运行了，测试下是否能访问index.html
 
