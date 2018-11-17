@@ -15,30 +15,37 @@ $ sudo yum remove docker \
                   docker-engine
 
 ② 安装相关包
+
 sudo yum install -y yum-utils \
   device-mapper-persistent-data \
   lvm2
 
 
 ③ 设置源
+
 sudo yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
 
 
 ④ 安装最新版本的docker
+
 sudo yum install docker-ce
 
 ⑤ 启动
+
 sudo systemctl start docker
 
 ⑥ 验证是否成功
 
 可以尝试运行
+
 sudo docker run hello-world
 
 也可以看看版本
+
 sudo docker version
+
 输出如下信息：
 Client:
  Version:           18.09.0
@@ -66,10 +73,12 @@ Server: Docker Engine - Community
 2.安装docker-compose
 
 ① 下载
+
 curl -L https://github.com/docker/compose/releases/download/1.23.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
 
 ② 设置权限
+
 chmod +x /usr/local/bin/docker-compose
 
 ③ 查看版本
