@@ -2,7 +2,7 @@
 ====
 
 
-##1.安装docker
+#1.安装docker
 ###① 卸载现有的docker，这里只说明centos下的。其他方案请见：https://docs.docker.com/install/linux/docker-ce/centos
 ```shell
 $ sudo yum remove docker \
@@ -73,7 +73,7 @@ Server: Docker Engine - Community
 
 
 
-##2.安装docker-compose
+#2.安装docker-compose
 
 ###① 下载
 ```shell
@@ -95,6 +95,6 @@ OpenSSL version: OpenSSL 1.1.0f  25 May 2017
 ```
 
 
-##3.下载相关的images
+#3.下载相关的images
 
 在相关内容描述
