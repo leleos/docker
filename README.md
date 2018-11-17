@@ -2,8 +2,8 @@
 ====
 
 
-# 1.安装docker
-① 卸载现有的docker，这里只说明centos下的。其他方案请见：https://docs.docker.com/install/linux/docker-ce/centos
+## 1.安装docker
+### ① 卸载现有的docker，这里只说明centos下的。其他方案请见：https://docs.docker.com/install/linux/docker-ce/centos
 ```shell
 $ sudo yum remove docker \
                   docker-client \
