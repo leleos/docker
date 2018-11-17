@@ -133,7 +133,7 @@ vim /docker/web0/www/index.php
 ```shell
 docker network create --driver=bridge --subnet=192.100.0.0/16 myweb
 ```
-以上建立了一个192.168.0.0 的网络，用于nginx和php的通信
+以上建立了一个192.168.100.0 的网络，用于nginx和php的通信
 
 ### ② 运行nginx 
 进入到web0目录
